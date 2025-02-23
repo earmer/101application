@@ -32,4 +32,9 @@ export default {
 .intro {
   font-weight: 500;
 }
+
+.slogan {
+  -webkit-text-stroke: 0.5px black;
+  paint-order: stroke fill;
+}
 </style>
