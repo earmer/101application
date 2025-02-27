@@ -5,3 +5,8 @@
 body {
     @apply bg-gray-900;
 }
+
+.text-shadow-lg {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+        0 0 8px rgba(0, 0, 0, 0.3);
+}

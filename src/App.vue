@@ -18,6 +18,10 @@ export default {
     BackgroundAnimate,
     // OurPrinciples,
     // OurProducts,
+  },
+  mounted() {
+    // Set the device pixel ratio as a CSS variable for Firefox
+    document.documentElement.style.setProperty('--moz-device-pixel-ratio', window.devicePixelRatio || 1);
   }
 }
 </script>
@@ -29,8 +33,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#bg_a,
-#defaultCanvas0 {
+#bg_a {
   position: absolute;
   top: 0;
   left: 0;

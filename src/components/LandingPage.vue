@@ -2,8 +2,8 @@
   <div class="relative flex items-center justify-center h-screen text-white">
     <img :src="logoImage" alt="Logo" class="logo w-1/3 absolute" />
     <div class="relative z-10 flex flex-col items-start">
-      <h1 class="intro text-6xl">{{ $t('intro') }}</h1>
-      <h2 class="slogan text-3xl text-gray-400">{{ $t('slogan') }}</h2>
+      <h1 class="intro text-6xl text-shadow-lg">{{ $t('intro') }}</h1>
+      <h2 class="slogan text-3xl text-gray-300 text-shadow-lg">{{ $t('slogan') }}</h2>
     </div>
   </div>
 </template>
@@ -31,10 +31,5 @@ export default {
 <style scoped>
 .intro {
   font-weight: 500;
-}
-
-.slogan {
-  -webkit-text-stroke: 0.5px black;
-  paint-order: stroke fill;
 }
 </style>
